@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface UILabel (keyword)
-
++(UILabel *)flagWithKeyWord:(NSString *)keyword andColor:(UIColor *)color andStr:(NSString *)str;
++(void)flagWithKeyWord:(NSString *)keyword andColor:(UIColor *)color andStr:(NSString *)str andLabel:(UILabel *)label;
 @end
